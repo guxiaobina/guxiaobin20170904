@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gxb.guxiaobin20170904.MainActivity">
+<!--
+    <Button
+        android:id="@+id/changeColor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="改变颜色" />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="加速" />
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="减速" />-->
+
+
+    <com.gxb.guxiaobin20170904.MyView
+        android:id="@+id/myview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ringColor="#000"
+        app:ringWidth="1dp" />
+
+</LinearLayout>

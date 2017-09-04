@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/changeColor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="改变颜色" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="加速" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="减速" />
+</LinearLayout>
